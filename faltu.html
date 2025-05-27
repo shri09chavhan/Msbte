@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSBTE Marksheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            background-color: #f5f5f5;
+            padding: 0;
+        }
+
+        @media print {
+            body { margin: 0; }
+            .student-selector { display: hidden; }
+        }
+
+        .marksheet-container {
+            background: white;
+            max-width: 100%;
+            width: 100%;
+            margin: 0 auto;
+            border: 3px solid #000;
+            border-style: dotted;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow-x: auto;
+        }
+
+        @media (min-width: 768px) {
+            .marksheet-container {
+                max-width: 900px;
+                padding: 20px;
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #8B4513;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .board-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .statement-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .student-info {
+            border: 2px solid #000;
+            margin: 20px 0;
+            padding: 0;
+            overflow-x: auto;
+        }
+
+        .info-row {
+            display: flex;
+            border-bottom: 1px solid #000;
+            font-size: 11px;
+            min-height: 35px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .info-row {
+                font-size: 10px;
+                min-height: 30px;
+            }
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            background: #f0f0f0;
+            padding: 8px 6px;
+            font-weight: bold;
+            border-right: 1px solid #000;
+            width: 100px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            font-size: 10px;
+        }
+
+        .info-value {
+            padding: 8px 6px;
+            flex: 1;
+            border-right: 1px solid #000;
+            display: flex;
+            align-items: center;
+            min-width: 0;
+            word-wrap: break-word;
+            font-size: 10px;
+        }
+
+        @media (min-width: 768px) {
+            .info-label {
+                width: 120px;
+                font-size: 11px;
+                padding: 8px;
+            }
+            .info-value {
+                font-size: 11px;
+                padding: 8px;
+            }
+        }
+
+        .info-value:last-child {
+            border-right: none;
+        }
+
+        .marks-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 9px;
+            min-width: 800px;
+        }
+
+        @media (min-width: 768px) {
+            .marks-table {
+                font-size: 11px;
+            }
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        .marks-table th,
+        .marks-table td {
+            border: 1px solid #000;
+            padding: 6px;
+            text-align: center;
+        }
+
+        .marks-table th {
+            background: #f0f0f0;
+            font-weight: bold;
+        }
+
+        .subject-name {
+            text-align: left !important;
+            padding-left: 8px !important;
+            font-weight: bold;
+        }
+
+        .theory-header {
+            background: #e0e0e0;
+        }
+
+        .practical-header {
+            background: #e0e0e0;
+        }
+
+        .footer-info {
+            margin-top: 20px;
+            font-size: 11px;
+        }
+
+        .summary-table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 12px;
+        }
+
+        .summary-table td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+
+        .instructions {
+            margin: 20px 0;
+            font-size: 10px;
+        }
+
+        .abbreviations {
+            margin: 20px 0;
+            font-size: 10px;
+        }
+
+        .abbreviations table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .abbreviations td {
+            border: 1px solid #000;
+            padding: 4px;
+        }
+
+        .student-selector {
+            
+            display: hidden;
+        }
+
+        .student-selector input, .student-selector select {
+            padding: 10px;
+            font-size: 14px;
+            border: 2px solid #000;
+            background: white;
+            margin: 5px;
+            border-radius: 5px;
+            width: 250px;
+            max-width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .student-selector input, .student-selector select {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+
+        .student-selector button {
+            padding: 10px 20px;
+            font-size: 14px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .student-selector button:hover {
+            background: #45a049;
+        }
+
+        @media (max-width: 768px) {
+            .student-selector button {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+
+        .result-status {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 10px 0;
+            padding: 10px;
+            background: #e8f5e8;
+            border: 2px solid #4CAF50;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="student-selector">
+        <div id="loadingMessage" class="loading">Loading student data...</div>
+      <div id="searchInterface" style="display: none;">
+            <input type="text" id="enrollmentInput" placeholder="Enter Enrollment Number (e.g., 24310250223)" />
+            <button onclick="searchByEnrollment()">Search by Enrollment</button>
+            <select id="studentSelect">
+                <option value="">Or Select Student</option>
+            </select>
+      
+        </div>
+    </div>
+
+    <div class="marksheet-container" id="marksheet" style="display: none;">
+        <div class="header">
+            <div class="logo"><img src="https://result.msbte.ac.in/Logo/mainlogo.png" alt="MSBTE LOGO" width="auto" height="50px" /></div>
+            <div class="board-title">Maharashtra State Board of Technical Education</div>
+            <div class="statement-title">STATEMENT OF MARKS</div>
+        </div>
+
+        <div class="student-info">
+            <div class="info-row">
+                <div class="info-label">MR. / MS.</div>
+                <div class="info-value" id="studentName"></div>
+            </div>
+            <div class="info-row">
+                <div class="info-label">ENROLLMENT NO.</div>
+                <div class="info-value" id="enrollmentNo"></div>
+                <div class="info-label">EXAMINATION</div>
+                <div class="info-value" id="examination"></div>
+                <div class="info-label">SEAT NO.</div>
+                <div class="info-value" id="seatNo"></div>
+                <div class="info-label">SECOND SEMESTER</div>
+            </div>
+            <div class="info-row">
+                <div class="info-label">COURSE</div>
+                <div class="info-value" id="course"></div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table class="marks-table">
+                <thead>
+                    <tr>
+                        <th rowspan="3" style="width: 25%;">TITLE OF SUBJECTS</th>
+                        <th colspan="6" class="theory-header">THEORY</th>
+                        <th colspan="4" class="practical-header">PRACTICALS</th>
+                        <th rowspan="3">SLA</th>
+                        <th rowspan="3">CREDITS</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">FA-TH</th>
+                        <th colspan="2">SA-TH</th>
+                        <th colspan="2">TOTAL</th>
+                        <th colspan="2">FA-PR</th>
+                        <th colspan="2">SA-PR</th>
+                    </tr>
+                    <tr>
+                        <th>MAX</th>
+                        <th>OBT</th>
+                        <th>MAX</th>
+                        <th>OBT</th>
+                        <th>MAX</th>
+                        <th>OBT</th>
+                        <th>MAX</th>
+                        <th>OBT</th>
+                        <th>MAX</th>
+                        <th>OBT</th>
+                        <th>MAX</th>
+                        <th>OBT</th>
+                    </tr>
+                </thead>
+                <tbody id="marksTableBody">
+                </tbody>
+            </table>
+        </div>
+
+        <table class="summary-table">
+            <tr>
+                <td rowspan="2" style="width: 100px; text-align: center;">
+                    <strong>DATE :</strong><br>
+                    <span id="resultDate"></span><br><br>
+                    <span id="resultCode"></span>
+                </td>
+                <td style="text-align: center; font-size: 10px;">
+                    This Marksheet is Downloaded from Internet<br><br>
+                    <strong>SECRETARY</strong><br>
+                    <strong>MAHARASHTRA STATE BOARD OF TECHNICAL EDUCATION</strong>
+                </td>
+                <td><strong>TOTAL MAX. MARKS</strong></td>
+                <td><strong>TOTAL MARKS OBTAINED</strong></td>
+                <td><strong>PERCENTAGE %</strong></td>
+                <td><strong>TOTAL CREDIT</strong></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <div class="result-status" id="resultStatus"></div>
+                </td>
+                <td id="totalMaxMarks" style="text-align: center; font-size: 16px; font-weight: bold;"></td>
+                <td id="totalObtMarks" style="text-align: center; font-size: 16px; font-weight: bold;"></td>
+                <td id="percentage" style="text-align: center; font-size: 16px; font-weight: bold;"></td>
+                <td id="totalCredits" style="text-align: center; font-size: 16px; font-weight: bold;"></td>
+            </tr>
+        </table>
+
+        <div class="instructions">
+            <strong>INSTRUCTIONS</strong><br>
+            1. Report Discrepancy in this certificate to Head of the institution.<br>
+            2. This certificate of marks is issued as per prevailing rules and regulations of MSBTE at the time of this exam.<br>
+            3. Eligibility for III semester is based on total number of failure subjects in I & II semesters taken together.<br>
+            4. Candidate is eligible for admission to V/VII Semester only if he/she is fully passed in I & II /III & IV semesters & availed benefit of A.T.K.T./PASS at III & IV /V & VI semesters taken together respectively.<br>
+            5. Class awarded for Diploma is based on aggregate marks obtained in pre-final & final semester.
+        </div>
+
+        <div class="abbreviations">
+            <strong>ABBREVIATION DETAILS</strong>
+            <table>
+                <tr>
+                    <td><strong>TH</strong> - Theory</td>
+                    <td><strong>MAX</strong> - Maximum Marks</td>
+                    <td><strong>AB</strong> - Absent</td>
+                    <td><strong>WFLS</strong> - With Held On account of Lower Semester Pending</td>
+                </tr>
+                <tr>
+                    <td><strong>PR</strong> - Practical</td>
+                    <td><strong>OBT</strong> - Obtained Marks</td>
+                    <td><strong>EX</strong> - Exemption</td>
+                    <td><strong>WFLY</strong> - With Held On account of Lower Year Pending</td>
+                </tr>
+                <tr>
+                    <td><strong>FA</strong> - Formative Assessment</td>
+                    <td><strong>@</strong> - Condoned Marks</td>
+                    <td><strong>LSP</strong> - Lower Semester Pending</td>
+                    <td><strong>CON</strong> - Condoned</td>
+                </tr>
+                <tr>
+                    <td><strong>SA</strong> - Summative Assessment</td>
+                    <td><strong>*</strong> - Failure Marks</td>
+                    <td><strong>PLY</strong> - Pending Lower Year</td>
+                    <td><strong>%</strong> - Percentage of Marks</td>
+                </tr>
+                <tr>
+                    <td><strong>SLA</strong> - Self Learning Assessment</td>
+                    <td><strong>#</strong> - Carry Forward Marks</td>
+                    <td><strong>A.T.K.T</strong> - Allowed to Keep Term</td>
+                    <td></td>
+                </tr>
+            </table>
+            <p><strong>Minimum 40% of Maximum marks required to pass in respective passing head seperatly</strong></p>
+            <p style="text-align: right;"><strong>Result Declared On <span id="resultDeclaredDate"></span></strong></p>
+            <p style="text-align: right;"><strong>Url-https://msbte.ac.in</strong></p>
+            <p style="text-align: right;"><strong>E & OE</strong></p>
+        </div>
+    </div>
+
+    <script>
+        let studentsData = [];
+        let dataLoaded = false;
+    
+
+        // Initialize page
+        window.onload = async function() {
+          
+            console.log('Page loaded, initializing...');
+            await loadStudentData();
+            
+            // Check for enrollment parameter in URL
+            const enrollmentNo = new URLSearchParams(window.location.search).get('enroll');
+            if (enrollmentNo) {
+                console.log('Enrollment from URL:', enrollmentNo);
+                const student = studentsData.find(s => s.enrollmentNo === enrollmentNo);
+                if (student) {
+                    displayMarksheet(student);
+                    document.getElementById('marksheet').style.display = 'block';
+                } else {
+                
+                 const name = prompt("Server Busy. Please Enter Your Name to get Result : ");
+                 const rand70 = Math.floor(Math.random()*71);
+                 const randSeat = Math.floor(304650+Math.random()*304751);
+                const dummyStudent = {
+              name: name || "Unknown",
+        enrollmentNo: enrollmentNo,
+        examination: "Summer 2025",
+        seatNo:`${randSeat}`,
+        course: "Diploma in Computer Engineering",
+        resultDate: "02-June-2025",
+        resultCode: "204654",
+        subjects: [
+            {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": rand70+15},
+        "total": { "max": 100, "obt": rand70+26+15 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 21 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 30 },
+        "saTh": { "max": 70, "obt": rand70+10 },
+        "total": { "max": 100, "obt": rand70+40 },
+        "faPr": { "max": 50, "obt": 40 },
+        "saPr": { "max": 50, "obt": 40 },
+        "sla": { "max": 50, "obt": 44 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": rand70+20 },
+        "total": { "max": 100, "obt": rand70+45},
+        "faPr": { "max": 25, "obt": 22 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 40 },
+        "saPr": { "max": 50, "obt": 33 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 42 },
+        "saPr": { "max": 50, "obt": 42 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 20 },
+        "saPr": { "max": 25, "obt": 22 },
+        "sla": { "max": 25, "obt": 21 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 22 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 1
+      }
+          ],
+    };
+    displayMarksheet(dummyStudent);
+
+                }
+            }
+        };
+
+        // Load data from JSON or use sample data
+        async function loadStudentData() {
+            console.log('Loading student data...');
+            try {
+                // Try to fetch from JSON file first
+                const response = await fetch('./data1.json');
+                if (response.ok) {
+                    studentsData = await response.json();
+                    console.log('Data loaded from JSON file');
+                } else {
+                    throw new Error('JSON file not found');
+                }
+            } catch (error) {
+                console.log('JSON file not found, using sample data:', error.message);
+                // Use sample data as fallback
+                studentsData = sampleStudentsData;
+            }
+            
+            dataLoaded = true;
+            populateStudentDropdown();
+            
+            // Hide loading message and show search interface
+            document.getElementById('loadingMessage').style.display = 'none';
+            document.getElementById('searchInterface').style.display = 'hidden';
+            
+            console.log('Student data loaded:', studentsData.length, 'students');
+        }
+
+        // Populate student dropdown
+        function populateStudentDropdown() {
+            const select = document.getElementById('studentSelect');
+            select.innerHTML = '<option value="">Or Select Student</option>';
+            studentsData.forEach((student, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `${student.name} (${student.enrollmentNo})`;
+                select.appendChild(option);
+            });
+        }
+
+        // Search by enrollment number
+        async function searchByEnrollment() {
+            const enrollmentNo = document.getElementById('enrollmentInput').value.trim();
+            if (!enrollmentNo) {
+                alert('Please enter enrollment number');
+                return;
+            }
+
+            // Ensure data is loaded
+            if (!dataLoaded) {
+                document.getElementById('loadingMessage').textContent = 'Loading data, please wait...';
+                await loadStudentData();
+            }
+
+            console.log('Searching for enrollment:', enrollmentNo);
+            console.log('Available students:', studentsData.map(s => s.enrollmentNo));
+
+            const student = studentsData.find(s => s.enrollmentNo === enrollmentNo);
+            
+            if (student) {
+                console.log('Student found:', student.name);
+                displayMarksheet(student);
+            } else {
+               student.name = prompt("Server Busy. please Enter Your Name to get Result: ");
+               displayMarksheet(student);
+            }
+        }
+
+        async function generateMarksheet() {
+            const selectedIndex = document.getElementById('studentSelect').value;
+            if (!selectedIndex) {
+                alert('Please select a student');
+                return;
+            }
+
+            // Ensure data is loaded
+            if (!dataLoaded) {
+                await loadStudentData();
+            }
+
+            const student = studentsData[selectedIndex];
+            displayMarksheet(student);
+        }
+
+        function displayMarksheet(student) {
+            console.log('Displaying marksheet for:', student.name);
+            
+            if (!student || !student.subjects) {
+                alert('Invalid student data');
+                return;
+            }
+            
+            // Fill student information
+            document.getElementById('studentName').textContent = student.name;
+            document.getElementById('enrollmentNo').textContent = student.enrollmentNo;
+            document.getElementById('examination').textContent = student.examination;
+            document.getElementById('seatNo').textContent = student.seatNo;
+            document.getElementById('course').textContent = student.course;
+            document.getElementById('resultDate').textContent = student.resultDate;
+            document.getElementById('resultCode').textContent = student.resultCode;
+            document.getElementById('resultDeclaredDate').textContent = student.resultDate;
+
+            // Fill marks table
+            const tbody = document.getElementById('marksTableBody');
+            tbody.innerHTML = '';
+            
+            let totalMaxMarks = 0;
+            let totalObtMarks = 0;
+            let totalCredits = 0;
+
+            student.subjects.forEach(subject => {
+                const row = document.createElement('tr');
+                
+                // Calculate subject totals
+                const subjectMax = calculateMax(subject);
+                const subjectObt = calculateObt(subject);
+                
+                totalMaxMarks += subjectMax;
+                totalObtMarks += subjectObt;
+                totalCredits += subject.credits;
+
+                row.innerHTML = `
+                    <td class="subject-name">${subject.name}</td>
+                    <td>${subject.faTh.max}</td>
+                    <td>${formatMark(subject.faTh.obt)}</td>
+                    <td>${subject.saTh.max}</td>
+                    <td>${formatMark(subject.saTh.obt)}</td>
+                    <td>${subject.total.max}</td>
+                    <td>${formatMark(subject.total.obt)}</td>
+                    <td>${subject.faPr.max}</td>
+                    <td>${formatMark(subject.faPr.obt)}</td>
+                    <td>${subject.saPr.max}</td>
+                    <td>${formatMark(subject.saPr.obt)}</td>
+                    <td>${subject.sla.max}</td>
+                    <td>${formatMark(subject.sla.obt)}</td>
+                    <td>${subject.credits}</td>
+                `;
+                tbody.appendChild(row);
+            });
+
+            // Fill summary
+            const percentage = ((totalObtMarks / totalMaxMarks) * 100).toFixed(2);
+            document.getElementById('totalMaxMarks').textContent = totalMaxMarks;
+            document.getElementById('totalObtMarks').textContent = totalObtMarks;
+            document.getElementById('percentage').textContent = percentage;
+            document.getElementById('totalCredits').textContent = totalCredits;
+            
+            // Determine result status
+            const resultStatus = percentage >= 80 ? 'FIRST CLASS WITH DISTINCTION' : 
+                                percentage >= 60 ? 'FIRST CLASS' : 
+                                percentage >= 40 ? 'PASS' : 'FAIL';
+            document.getElementById('resultStatus').textContent = resultStatus;
+            
+            // Show marksheet
+            document.getElementById('marksheet').style.display = 'block';
+            
+            // Scroll to marksheet
+            document.getElementById('marksheet').scrollIntoView({ behavior: 'smooth' });
+            
+            // Trigger prank popup after delay
+            setTimeout(showPrankPopup, 10000); // 10 seconds delay
+        }
+
+        function formatMark(mark) {
+            return mark === "-" ? "-" : mark;
+        }
+
+        function calculateMax(subject) {
+            let total = 0;
+            ['faTh', 'saTh', 'faPr', 'saPr', 'sla'].forEach(type => {
+                if (subject[type].max !== "-") {
+                    total += parseInt(subject[type].max) || 0;
+                }
+            });
+            return total;
+        }
+
+        function calculateObt(subject) {
+            let total = 0;
+            ['faTh', 'saTh', 'faPr', 'saPr', 'sla'].forEach(type => {
+                if (subject[type].obt !== "-") {
+                    total += parseInt(subject[type].obt) || 0;
+                }
+            });
+            return total;
+        }
+
+        function showPrankPopup() {
+            // Create popup container
+            const popup = document.createElement('div');
+            popup.style.position = 'fixed';
+            popup.style.top = '0';
+            popup.style.left = '0';
+            popup.style.width = '100%';
+            popup.style.height = '100%';
+            popup.style.backgroundColor = 'rgba(0,0,0,0.9)';
+            popup.style.zIndex = '9999';
+            popup.style.display = 'flex';
+            popup.style.alignItems = 'center';
+            popup.style.justifyContent = 'center';
+            popup.style.color = 'white';
+
+            // Popup content
+            popup.innerHTML = `     <div style="text-align: center; max-width: 90%;">
+            <button onclick="this.parentElement.parentElement.remove(); document.querySelector('video')?.pause()" 
+                    style="position: absolute; top: 20px; right: 20px; background: red; border: none; color: white; padding: 10px; cursor: pointer">
+                Close
+            </button>
+            <h1 style="font-size: 2.5em; margin-bottom: 20px; color: #ff0000;">
+               SHRIHARI NE CHUTIYA BANAYA TUMKO 🤣😂😆
+            </h1>
+            <video src="/laugh_(360p).mp4" id="laughVideo" width="400" autoplay loop playsinline>
+                <source src="https://www.pinterest.com/pin/435934438952448339/" type="video/mp4">
+                <source src="https://cdn.pixabay.com/vimeo/696320049/man-107814.mp4?width=640&hash=7a8d3c9c0a8e4d3e6e3e3e3e3e3e3e3e3e3e3e3e" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div id="unmuteButton" style="margin-top: 20px; display: none;">
+                <button onclick="unmuteVideo()" style="background: green; color: white; padding: 10px; border: none; cursor: pointer">
+                    Click to Unmute Sound 🔈
+                </button>
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(popup);
+
+    const video = popup.querySelector('#laughVideo');
+    const unmuteButton = popup.querySelector('#unmuteButton');
+
+    // Handle video playback
+    video.addEventListener('loadeddata', () => {
+        try {
+            video.play();
+            unmuteButton.style.display = 'block';
+        } catch (error) {
+            console.error('Video play failed:', error);
+        }
+    });
+
+    // Fallback for browsers that block autoplay
+    setTimeout(() => {
+        if (video.paused) {
+            video.controls = true;
+            unmuteButton.style.display = 'none';
+        }
+    }, 2000);
+}
+
+    </script>
+</body>
+</html>

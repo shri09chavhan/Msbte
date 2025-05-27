@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSBTE Result - Maharashtra State Board of Technical Education</title>
+    <meta name="description" content="Check your MSBTE diploma exam results online. View your marksheet by entering your enrollment or seat number and verifying captcha.">
+    <meta name="keywords" content="MSBTE Result, Maharashtra Technical Board, Diploma Results,Maharashtra state board of technical Education ,MSBTE Marksheet, Summer 2025 Result">
+    <meta name="author" content="MSBTE">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           /* background-color: #f0f0f0;*/
+            padding: 10px 30px;
+            /*border-bottom: 2px solid #ccc;*/
+        }
+
+        .header .logo {
+            height: 100px;
+        }
+
+        .header h1, .header h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header div:last-child {
+            text-align: right;
+            flex: 1;
+        }
+
+        .container {
+            padding: 20px;
+            background: #ffffe0;
+            margin: 30px auto;
+            max-width: 500px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+
+        input{
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px 0;
+            border: 2px solid orange;
+            border-radius: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        canvas {
+            width: 100%;
+            max-width: 200px;
+            border: 1.5px solid black;
+            border-radius: 10px;
+            background-color: white;
+            margin: 0 auto;
+            display: block;
+        }
+         button {
+          
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            
+        }
+
+        button img {
+          display: block;
+          width: auto;
+          height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img class="logo" src="https://result.msbte.ac.in/Logo/mainlogo.png" alt="MSBTE Logo"/>
+        </div>
+        <div>
+            <h1>Maharashtra State Board of Technical Education</h1>
+            <h3>महाराष्ट्र राज्य तंत्र शिक्षण मंडळ, मुंबई</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="faltu.html" method="GET" id="resultForm">
+            <label for="enroll">Enter Enrollment No. Or Seat No.</label><br>
+            <input type="text" id="enroll" name="enroll" required><br>
+
+            <label for="captcha">Captcha</label><br>
+            <canvas id="captchaCanvas" width="200" height="50"></canvas><br>
+            <input type="text" id="captchaInput" placeholder="Type Captcha Here" required><br>
+
+<div style="text-align: center; margin-top: 10px;">
+  <button type="submit">
+    <img src="https://result.msbte.ac.in/pcwebBTRes/pcImg/pcImgbuttons/pcbtnShowResult.png" alt="Show Result" />
+  </button>
+</div>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('resultForm');
+        const captchaCanvas = document.getElementById('captchaCanvas');
+        const captchaInput = document.getElementById('captchaInput');
+        let captchaText = '';
+
+        function generateCaptcha() {
+            const ctx = captchaCanvas.getContext('2d');
+            ctx.clearRect(0, 0, captchaCanvas.width, captchaCanvas.height);
+            captchaText = Math.random().toString(36).substring(2, 8);
+            ctx.font = '30px Arial';
+            ctx.fillStyle = '#f00';
+            ctx.fillText(captchaText, 10, 35);
+        }
+
+        generateCaptcha();
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const input = captchaInput.value.trim();
+            if (input !== captchaText) {
+                alert("Invalid Captcha");
+                generateCaptcha();
+                return;
+            }
+            const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+            const isWideScreen = window.innerWidth >= 1024;
+            if (isMobile && !isWideScreen) {
+            alert("Use Desktop mode for Better Experience");
+          }
+            const enrollValue = document.getElementById("enroll").value.trim();
+            const url = `/faltu.html?enroll=${encodeURIComponent(enrollValue)}`;
+            window.location.href = url;
+            
+        });
+        
+    </script>
+</body>
+</html>

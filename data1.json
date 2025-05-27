@@ -1,0 +1,2272 @@
+[
+  {
+    "name": "CHAVHAN SHRIHARI PRADYUMNA",
+    "enrollmentNo": "2431025022",
+    "examination": "202411",
+    "seatNo": "304665",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 22 },
+        "saTh": { "max": 70, "obt": 57 },
+        "total": { "max": 100, "obt": 79 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 21 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 30 },
+        "saTh": { "max": 70, "obt": 40 },
+        "total": { "max": 100, "obt": 70 },
+        "faPr": { "max": 50, "obt": 40 },
+        "saPr": { "max": 50, "obt": 40 },
+        "sla": { "max": 50, "obt": 44 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 24 },
+        "saTh": { "max": 70, "obt": 61 },
+        "total": { "max": 100, "obt": 85 },
+        "faPr": { "max": 25, "obt": 22 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 40 },
+        "saPr": { "max": 50, "obt": 33 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 42 },
+        "saPr": { "max": 50, "obt": 42 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 20 },
+        "saPr": { "max": 25, "obt": 22 },
+        "sla": { "max": 25, "obt": 21 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 22 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "THAKARE KARTIK DEVIDAS",
+    "enrollmentNo": "24310250201",
+    "examination": "202411",
+    "seatNo": "304666",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 62 },
+        "total": { "max": 100, "obt": 88 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 58 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 43 },
+        "saPr": { "max": 50, "obt": 41 },
+        "sla": { "max": 50, "obt": 46 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 65 },
+        "total": { "max": 100, "obt": 92 },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 42 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 43 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 22 },
+        "saPr": { "max": 25, "obt": 23 },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "MRUNAL PRAVIN JAGTAP",
+    "enrollmentNo": "24310250202",
+    "examination": "202411",
+    "seatNo": "304667",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": 59 },
+        "total": { "max": 100, "obt": 84 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 56 },
+        "total": { "max": 100, "obt": 83 },
+        "faPr": { "max": 50, "obt": 42 },
+        "saPr": { "max": 50, "obt": 44 },
+        "sla": { "max": 50, "obt": 45 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 63 },
+        "total": { "max": 100, "obt": 89 },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 43 },
+        "saPr": { "max": 50, "obt": 41 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 46 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 21 },
+        "saPr": { "max": 25, "obt": 24 },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "UKANDE JAYANT MANGLESH",
+    "enrollmentNo": "24310250203",
+    "examination": "202411",
+    "seatNo": "304668",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 24 },
+        "saTh": { "max": 70, "obt": 61 },
+        "total": { "max": 100, "obt": 85 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 21 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 29 },
+        "saTh": { "max": 70, "obt": 55 },
+        "total": { "max": 100, "obt": 84 },
+        "faPr": { "max": 50, "obt": 41 },
+        "saPr": { "max": 50, "obt": 43 },
+        "sla": { "max": 50, "obt": 47 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 64 },
+        "total": { "max": 100, "obt": 92 },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 44 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 43 },
+        "saPr": { "max": 50, "obt": 45 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": 25, "obt": 22 },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "BAWANIKAR SANVED RAJENDRA",
+    "enrollmentNo": "24310250204",
+    "examination": "202411",
+    "seatNo": "304669",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 58 },
+        "total": { "max": 100, "obt": 85 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 60 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 42 },
+        "sla": { "max": 50, "obt": 48 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": 66 },
+        "total": { "max": 100, "obt": 91 },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 42 },
+        "saPr": { "max": 50, "obt": 46 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 44 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": 25, "obt": 23 },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "THAKRE KALASH RAVINDRA",
+    "enrollmentNo": "24310250205",
+    "examination": "202411",
+    "seatNo": "304670",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 23 },
+        "saTh": { "max": 70, "obt": 64 },
+        "total": { "max": 100, "obt": 87 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 57 },
+        "total": { "max": 100, "obt": 85 },
+        "faPr": { "max": 50, "obt": 43 },
+        "saPr": { "max": 50, "obt": 45 },
+        "sla": { "max": 50, "obt": 46 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 29 },
+        "saTh": { "max": 70, "obt": 62 },
+        "total": { "max": 100, "obt": 91 },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 43 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 47 },
+        "saPr": { "max": 50, "obt": 45 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 22 },
+        "saPr": { "max": 25, "obt": 25 },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "LADE PAVAN RAJENDRA",
+    "enrollmentNo": "24310250206",
+    "examination": "202411",
+    "seatNo": "304671",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 60 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 22 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 59 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 43 },
+        "sla": { "max": 50, "obt": 47 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 24 },
+        "saTh": { "max": 70, "obt": 67 },
+        "total": { "max": 100, "obt": 91 },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 47 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 48 },
+        "saPr": { "max": 50, "obt": 46 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": 25, "obt": 24 },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "CHOPADE PIYUSH GHANSHYAM",
+    "enrollmentNo": "24310250207",
+    "examination": "202411",
+    "seatNo": "304672",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": 63 },
+        "total": { "max": 100, "obt": 88 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 29 },
+        "saTh": { "max": 70, "obt": 54 },
+        "total": { "max": 100, "obt": 83 },
+        "faPr": { "max": 50, "obt": 42 },
+        "saPr": { "max": 50, "obt": 44 },
+        "sla": { "max": 50, "obt": 45 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 65 },
+        "total": { "max": 100, "obt": 92 },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 42 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 47 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": 25, "obt": 23 },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "DESHMUKH SAURABH AVINASH",
+    "enrollmentNo": "24310250208",
+    "examination": "202411",
+    "seatNo": "304673",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 61 },
+        "total": { "max": 100, "obt": 89 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 58 },
+        "total": { "max": 100, "obt": 84 },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 41 },
+        "sla": { "max": 50, "obt": 48 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 66 },
+        "total": { "max": 100, "obt": 92 },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 43 },
+        "saPr": { "max": 50, "obt": 45 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 48 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": 25, "obt": 22 },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "BAKALE AYUSH PRAKASH",
+    "enrollmentNo": "24310250209",
+    "examination": "202411",
+    "seatNo": "304674",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 24 },
+        "saTh": { "max": 70, "obt": 65 },
+        "total": { "max": 100, "obt": 89 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 30 },
+        "saTh": { "max": 70, "obt": 56 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 46 },
+        "sla": { "max": 50, "obt": 46 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": 64 },
+        "total": { "max": 100, "obt": 89 },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 47 },
+        "saPr": { "max": 50, "obt": 44 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 49 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": 25, "obt": 25 },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "BHANDWALKAR SACHIN YUDHISHTIR",
+    "enrollmentNo": "24310250210",
+    "examination": "202411",
+    "seatNo": "304675",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 62 },
+        "total": { "max": 100, "obt": 89 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": 61 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 43 },
+        "sla": { "max": 50, "obt": 49 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 63 },
+        "total": { "max": 100, "obt": 91 },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 45 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 47 },
+        "saPr": { "max": 50, "obt": 46 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": 25, "obt": 24 },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "THAKARE SANCHITA SANJAY",
+    "enrollmentNo": "24310250211",
+    "examination": "202411",
+    "seatNo": "304676",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 64 },
+        "total": { "max": 100, "obt": 90 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 29 },
+        "saTh": { "max": 70, "obt": 57 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 43 },
+        "saPr": { "max": 50, "obt": 47 },
+        "sla": { "max": 50, "obt": 47 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 67 },
+        "total": { "max": 100, "obt": 94 },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 48 },
+        "saPr": { "max": 50, "obt": 46 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 48 },
+        "saPr": { "max": 50, "obt": 47 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": 25, "obt": 25 },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "MISHRA ANURAG VUAY PRAKASH",
+    "enrollmentNo": "24310250212",
+    "examination": "202411",
+    "seatNo": "304677",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 25 },
+        "saTh": { "max": 70, "obt": 63 },
+        "total": { "max": 100, "obt": 88 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 55 },
+        "total": { "max": 100, "obt": 83 },
+        "faPr": { "max": 50, "obt": 44 },
+        "saPr": { "max": 50, "obt": 45 },
+        "sla": { "max": 50, "obt": 48 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 29 },
+        "saTh": { "max": 70, "obt": 65 },
+        "total": { "max": 100, "obt": 94 },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 45 },
+        "saPr": { "max": 50, "obt": 47 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 48 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 23 },
+        "saPr": { "max": 25, "obt": 24 },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 24 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 1
+      }
+    ]
+  },
+  {
+    "name": "KAMATKAR NANDINI YOGESH",
+    "enrollmentNo": "24310250213",
+    "examination": "202411",
+    "seatNo": "304678",
+    "course": "Diploma In Computer Engineering",
+    "resultDate": "02/06/2025",
+    "resultCode": "3/0132/CO2K",
+    "subjects": [
+      {
+        "name": "APPLIED MATHEMATICS",
+        "faTh": { "max": 30, "obt": 28 },
+        "saTh": { "max": 70, "obt": 60 },
+        "total": { "max": 100, "obt": 88 },
+        "faPr": { "max": "-", "obt": "-" },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 23 },
+        "credits": 4
+      },
+      {
+        "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh": { "max": 30, "obt": 27 },
+        "saTh": { "max": 70, "obt": 59 },
+        "total": { "max": 100, "obt": 86 },
+        "faPr": { "max": 50, "obt": 46 },
+        "saPr": { "max": 50, "obt": 44 },
+        "sla": { "max": 50, "obt": 49 },
+        "credits": 5
+      },
+      {
+        "name": "PROGRAMMING IN C",
+        "faTh": { "max": 30, "obt": 26 },
+        "saTh": { "max": 70, "obt": 68 },
+        "total": { "max": 100, "obt": 94 },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "sla": { "max": 25, "obt": 24 },
+        "credits": 3
+      },
+      {
+        "name": "LINUX BASICS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 47 },
+        "saPr": { "max": 50, "obt": 48 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 3
+      },
+      {
+        "name": "PROFESIONAL COMMUNICATION",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 50, "obt": 49 },
+        "saPr": { "max": 50, "obt": 47 },
+        "sla": { "max": "-", "obt": "-" },
+        "credits": 2
+      },
+      {
+        "name": "SOCIAL AND LIFE SKILLS",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": 25, "obt": 23 },
+        "sla": { "max": 25, "obt": 25 },
+        "credits": 2
+      },
+      {
+        "name": "WEBPAGE DESIGNING",
+        "faTh": { "max": "-", "obt": "-" },
+        "saTh": { "max": "-", "obt": "-" },
+        "total": { "max": "-", "obt": "-" },
+        "faPr": { "max": 25, "obt": 25 },
+        "saPr": { "max": "-", "obt": "-" },
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"VARMA LAKSH SANTOSH",
+    "enrollmentNo":"24310250214",
+    "examination":"202411",
+    "seatNo":"304679",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":62},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":60},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":45},
+        "saPr":{"max":50,"obt":43},
+        "sla":{"max":50,"obt":48},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":66},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":25,"obt":25},
+        "sla":{"max":25,"obt":24},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"PENSHANWAR JANHAVI PRASHANT",
+    "enrollmentNo":"24310250215",
+    "examination":"202411",
+    "seatNo":"304680",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":25},
+        "saTh":{"max":70,"obt":64},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":29},
+        "saTh":{"max":70,"obt":58},
+        "total":{"max":100,"obt":87},
+        "faPr":{"max":50,"obt":44},
+        "saPr":{"max":50,"obt":46},
+        "sla":{"max":50,"obt":47},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":67},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":49},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":25,"obt":24},
+        "sla":{"max":25,"obt":25},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"DAHIWADE SHREYA GOPAL",
+    "enrollmentNo":"24310250216",
+    "examination":"202411",
+    "seatNo":"304681",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":63},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":23},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":57},
+        "total":{"max":100,"obt":85},
+        "faPr":{"max":50,"obt":43},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":50,"obt":46},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":29},
+        "saTh":{"max":70,"obt":65},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":45},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":23},
+        "saPr":{"max":25,"obt":25},
+        "sla":{"max":25,"obt":24},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"DEWASE JAYASHRI TEJRAO",
+    "enrollmentNo":"24310250217",
+    "examination":"202411",
+    "seatNo":"304682",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":24},
+        "saTh":{"max":70,"obt":65},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":59},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":45},
+        "saPr":{"max":50,"obt":44},
+        "sla":{"max":50,"obt":48},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":68},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":25,"obt":23},
+        "sla":{"max":25,"obt":25},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"BUTTE MUKTA VISHWAS",
+    "enrollmentNo":"24310250218",
+    "examination":"202411",
+    "seatNo":"304683",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":61},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":25},
+        "saTh":{"max":70,"obt":61},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":42},
+        "sla":{"max":50,"obt":49},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":66},
+        "total":{"max":100,"obt":93},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":45},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":25,"obt":24},
+        "sla":{"max":25,"obt":23},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"PANGARE ROHINI SANTOSH",
+    "enrollmentNo":"24310250219",
+    "examination":"202411",
+    "seatNo":"304684",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":62},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":60},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":44},
+        "saPr":{"max":50,"obt":46},
+        "sla":{"max":50,"obt":47},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":64},
+        "total":{"max":100,"obt":92},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":46},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":49},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":23},
+        "saPr":{"max":25,"obt":25},
+        "sla":{"max":25,"obt":24},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"AMBADARE PREMILA DIVAKAR",
+    "enrollmentNo":"24510250220",
+    "examination":"202411",
+    "seatNo":"304685",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":25},
+        "saTh":{"max":70,"obt":64},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":23},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":29},
+        "saTh":{"max":70,"obt":56},
+        "total":{"max":100,"obt":85},
+        "faPr":{"max":50,"obt":43},
+        "saPr":{"max":50,"obt":45},
+        "sla":{"max":50,"obt":48},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":24},
+        "saTh":{"max":70,"obt":69},
+        "total":{"max":100,"obt":93},
+        "faPr":{"max":25,"obt":23},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":45},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":25,"obt":23},
+        "sla":{"max":25,"obt":25},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"SHAIKH UBAID ABDUL SAJID",
+    "enrollmentNo":"24310250221",
+    "examination":"202411",
+    "seatNo":"304686",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":63},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":58},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":45},
+        "saPr":{"max":50,"obt":44},
+        "sla":{"max":50,"obt":46},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":67},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":46},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":25,"obt":24},
+        "sla":{"max":25,"obt":23},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"SHAIKH RIZA ANSAR",
+    "enrollmentNo":"24310250222",
+    "examination":"202411",
+    "seatNo":"304687",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":29},
+        "saTh":{"max":70,"obt":60},
+        "total":{"max":100,"obt":89},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":59},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":42},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":50,"obt":47},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":25},
+        "saTh":{"max":70,"obt":68},
+        "total":{"max":100,"obt":93},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":49},
+        "saPr":{"max":50,"obt":44},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":23},
+        "saPr":{"max":25,"obt":25},
+        "sla":{"max":25,"obt":24},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"CHAVMAN SHRIHARI PRADYUMNA",
+    "enrollmentNo":"24310250223",
+    "examination":"202411",
+    "seatNo":"304688",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":24},
+        "saTh":{"max":70,"obt":66},
+        "total":{"max":100,"obt":90},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":23},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":30},
+        "saTh":{"max":70,"obt":55},
+        "total":{"max":100,"obt":85},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":43},
+        "sla":{"max":50,"obt":49},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":69},
+        "total":{"max":100,"obt":95},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":49},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":25,"obt":25},
+        "sla":{"max":25,"obt":24},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"SIRSAT SEJAL PRAFUL",
+    "enrollmentNo":"24310250224",
+    "examination":"202411",
+    "seatNo":"304689",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":63},
+        "total":{"max":100,"obt":90},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":60},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":44},
+        "saPr":{"max":50,"obt":46},
+        "sla":{"max":50,"obt":48},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":66},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":25,"obt":23},
+        "sla":{"max":25,"obt":25},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"BOKEY HIMANSHU SURENDRA",
+    "enrollmentNo":"24310250225",
+    "examination":"202411",
+    "seatNo":"304690",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":25},
+        "saTh":{"max":70,"obt":65},
+        "total":{"max":100,"obt":90},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":29},
+        "saTh":{"max":70,"obt":57},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":45},
+        "saPr":{"max":50,"obt":45},
+        "sla":{"max":50,"obt":47},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":67},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":25,"obt":25},
+        "sla":{"max":25,"obt":23},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"MOTGHARE PIYUSH SUDHAKAR",
+    "enrollmentNo":"24310250226",
+    "examination":"202411",
+    "seatNo":"304691",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":26},
+        "saTh":{"max":70,"obt":64},
+        "total":{"max":100,"obt":90},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":23},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":58},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":43},
+        "saPr":{"max":50,"obt":47},
+        "sla":{"max":50,"obt":49},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":29},
+        "saTh":{"max":70,"obt":65},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":49},
+        "saPr":{"max":50,"obt":46},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":48},
+        "saPr":{"max":50,"obt":49},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":23},
+        "saPr":{"max":25,"obt":24},
+        "sla":{"max":25,"obt":25},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":24},
+        "credits":1
+      }
+    ]
+  },
+  {
+    "name":"DHOMANE NOMESH VISHWESHWAR",
+    "enrollmentNo":"24310250227",
+    "examination":"202411",
+    "seatNo":"304692",
+    "course":"Diploma In Computer Engineering",
+    "resultDate":"02/06/2025",
+    "resultCode":"3/0132/CO2K",
+    "subjects":[
+      {
+        "name":"APPLIED MATHEMATICS",
+        "faTh":{"max":30,"obt":28},
+        "saTh":{"max":70,"obt":62},
+        "total":{"max":100,"obt":90},
+        "faPr":{"max":"-","obt":"-"},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":4
+      },
+      {
+        "name":"BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "faTh":{"max":30,"obt":27},
+        "saTh":{"max":70,"obt":59},
+        "total":{"max":100,"obt":86},
+        "faPr":{"max":50,"obt":46},
+        "saPr":{"max":50,"obt":44},
+        "sla":{"max":50,"obt":48},
+        "credits":5
+      },
+      {
+        "name":"PROGRAMMING IN C",
+        "faTh":{"max":30,"obt":24},
+        "saTh":{"max":70,"obt":70},
+        "total":{"max":100,"obt":94},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":3
+      },
+      {
+        "name":"LINUX BASICS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":47},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":3
+      },
+      {
+        "name":"PROFESIONAL COMMUNICATION",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":50,"obt":49},
+        "saPr":{"max":50,"obt":48},
+        "sla":{"max":"-","obt":"-"},
+        "credits":2
+      },
+      {
+        "name":"SOCIAL AND LIFE SKILLS",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":25},
+        "saPr":{"max":25,"obt":24},
+        "sla":{"max":25,"obt":24},
+        "credits":2
+      },
+      {
+        "name":"WEBPAGE DESIGNING",
+        "faTh":{"max":"-","obt":"-"},
+        "saTh":{"max":"-","obt":"-"},
+        "total":{"max":"-","obt":"-"},
+        "faPr":{"max":25,"obt":24},
+        "saPr":{"max":"-","obt":"-"},
+        "sla":{"max":25,"obt":25},
+        "credits":1
+      }
+    ]
+  }
+]
